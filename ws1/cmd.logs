@@ -1,0 +1,179 @@
+    1  passwd
+    2  wget www.github.com
+    3  git --version
+    4  pwd
+    5  ls
+    6  mkdir cs131
+    7  pwd
+    8  ls
+    9  cd cs131
+   10  pwd
+   11  git init
+   12  git checkout -b<ws1>
+   13  git checkout -b <ws1>
+   14  git checkout -b ws1
+   15  history > cmd.logs
+   16  ls
+   17  git push origin ws1
+   18  pwd
+   19  git push ws1
+   20  git branch
+   21  git init
+   22  git branch
+   23  cd
+   24  ls
+   25  cd cs131
+   26  ls
+   27  git checkout ws1
+   28  git branch ws1
+   29  git commit
+   30  git config --global user.email "kevuncui1034@gmail.com"
+   31  git commit
+   32  rm -rf.git
+   33  git init
+   34  ls
+   35  rm -rf .git
+   36  cd /
+   37  ls
+   38  cd home
+   39  pwd
+   40  ls
+   41  rm cs131
+   42  rm -rf cs131
+   43  ls
+   44  rm -rf index.html
+   45  ls
+   46  wget www.github.com
+   47  mkdir myproject
+   48  ls
+   49  cd myproject/
+   50  git init
+   51  git init stop
+   52  ls
+   53  git rm sotp
+   54  git rm stop
+   55  git rm -rf stop
+   56  rm stop
+   57  rm -rf stop
+   58  ls
+   59  cd
+   60  ls
+   61  rm -rf myproject
+   62  ls
+   63  rm -rf index.html
+   64  ls
+   65  rm -rf .git
+   66  mkdir myproject
+   67  cd myproject
+   68  git init
+   69  git branch -m cs131
+   70  git status
+   71  git branch -m master
+   72  git status
+   73  mkdir ws1
+   74  cd ws1
+   75  history cmd.logs
+   76  history <cmd.logs
+   77  history > cmd.logs
+   78  ls
+   79  git remote add origin git@github.com:kevincui1034/cs131.git
+   80  git push -u origin master
+   81  git status
+   82  git commit
+   83  git config --global user.name "kevin23fa"
+   84  git status
+   85  git commit
+   86  git commit -m "history push attempt"
+   87  git add
+   88  ls
+   89  git status
+   90  git branch
+   91  cd /
+   92  ls
+   93  cd root
+   94  cd tmp
+   95  cd
+   96  ls
+   97  cd myproject
+   98  git init
+   99  ls
+  100  git commit -m "first commit"
+  101  git add ws1
+  102  git commit -m "first commit"
+  103  git push -u origin master
+  104  git push -u origin main
+  105  ls
+  106  git status
+  107  git commit -m "first commmit"
+  108  git branch -m main
+  109  git push -u origin main
+  110  git remote add origin git@github.com:kevincui1034/cs131.git
+  111  git status
+  112  rm -rf .git
+  113  cd
+  114  rm -rf myproject
+  115  ls
+  116  mkdir cs131
+  117  cd cs131
+  118  mkdir ws1
+  119  cd ws1
+  120  history > cmd.logs
+  121  ls
+  122  cd
+  123  ls
+  124  cd cs131
+  125  git init
+  126  git commit -m "first commit"
+  127  git add ws1/
+  128  git commit -m "first commit"
+  129  git branch -m main
+  130  git@github.com:kevincui1034/cs131.git
+  131  git remote add origin git@github.com:kevincui1034/cs131.git
+  132  git push-u origin main
+  133  git push -u origin main
+  134  git push -u origin master
+  135  git push -u origin
+  136  git push -u cs131
+  137  git -m main
+  138  git status
+  139  ls
+  140  git push -u origin main
+  141  git status
+  142  git init
+  143  git remote add origin git@github.com:kevincui1034/cs131.git
+  144  git branch -m main
+  145  git push -u origin main
+  146  ls
+  147  cd cs131
+  148  ls
+  149  git init
+  150  git remote add origin git@github.com:kevincui1034/cs131.git
+  151  git push -u origin main
+  152  gir branch -m main
+  153  git branch -m main
+  154  ls
+  155  cd cs131
+  156  git init
+  157  git branch -b myproject
+  158  git status
+  159  git remote add origin git@github.com:kevincui1034/cs131.git
+  160  git branch -M main
+  161  git push -u origin main
+  162  git
+  163  git user
+  164  git user.name
+  165  git user.email kevincui1034@gmail.com
+  166  git remote add origin https://github.com/kevincui1034/cs131.git
+  167  ssh -T git@github.com
+  168  ssh -T git@github.comssh -T kevincui1034@github.com
+  169  ssh -T https://github.com/kevincui1034
+  170  ssh -vT git@github.com
+  171  cd
+  172  ls
+  173  rm -rf cs131
+  174  ls
+  175  mkdir ws1
+  176  wget www.github.com
+  177  ls
+  178  cd ws1
+  179  history > cmd.logs
