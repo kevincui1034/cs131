@@ -1,0 +1,32 @@
+1. cd
+mkdir a1
+
+2. mnt/scratch/kevin23fa
+used echo $HOME
+
+3. id
+uid=1006(kevin23fa) gid=1006(kevin23fa) groups=1006(kevin23fa)
+
+4. cd a1
+mkdir temp
+Cannot 'cd' into temp directory
+Can 'ls' it
+Can 'ls -l' it
+Cannot create files in temp
+(touch: cannot touch '/temp': Permission denied)
+
+5. Yes, allowed to 'mv' temp2 to temp3
+Can cp a directory with -r
+
+6. used 'ls /proc/ | grep cpu'
+and 'ls /proc/ | grep mem'
+cpuinfo contains cpu information and meminfo contains memory information
+
+7.there is 73080513 kB of total memory or 73 gB
+
+8.there is 255 processors, architecture name is POWER8, and the processor speed is 3.425 GHz
+
+9. the os version is 8.6
+the file is under /etc/os-release
+
+10. read, write, and executable

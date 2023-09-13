@@ -1,0 +1,63 @@
+    1  cd
+    2  mkdir a1
+    3  echo $HOME
+    4  cd a1
+    5  sudo vim /etc/group
+    6  id
+    7  mkdir temp
+    8  cd temp
+    9  chmod -x
+   10  chmod -
+   11  chmod --help
+   12  chmod -x temp
+   13  cd
+   14  cd a1
+   15  chmod -x temp
+   16  ls temp
+   17  ls
+   18  ls -l temp
+   19  ls temp
+   20  touch temp.txt ~temp
+   21  ls
+   22  rm ~temp
+   23  ls
+   24  rm temp.txt
+   25  touch temp.txt ~/temp
+   26  ls
+   27  rm temp.txt
+   28  touch temp.txt /temp
+   29  mkdir temp2
+   30  mv temp2 /temp3
+   31  cp temp2
+   32  ls
+   33  cp temp2 /temp3
+   34  lx
+   35  ls
+   36  mkdir temp3
+   37  cp temp2 temp3
+   38  cp -r temp2 temp3
+   39  ls
+   40  cd temp3
+   41  ls
+   42  ls /proc
+   43  ls /proc/cpuinfo
+   44  ls /proc | grep cpuinfo
+   45  ls /proc/cpu
+   46  ls /proc | grep cpu
+   47  ls /proc/ | grep mem
+   48  ls /proc | grep meminfo
+   49  ls /proc | head cpuinfo
+   50  ls /proc/ | head meminfo
+   51  head /proc/meminfo
+   52  head /proc/cpuinfo
+   53  tail /proc/cpuinfo
+   54  cat /proc/cpuinfo
+   55  ls /proc | grep os
+   56  ls
+   57  ls /etc
+   58  ls /etc | grep os
+   59  cat /etc/os-release
+   60  ls -l /etc/os-release
+   61  cd
+   62  cd a1
+   63  history > cmd.logs
