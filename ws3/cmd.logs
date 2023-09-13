@@ -1,0 +1,65 @@
+    1  mkdir ws3
+    2  cd ws3
+    3  ls
+    4  cp /datasets/taxidata.tar.gz .
+    5  tar -xzvf taxidata.tar.gz
+    6  ls
+    7  cd taxidata
+    8  ls
+    9  cut -d "," -f 8 2019-01.csv > 0119.txt
+   10  vim 0119.txt
+   11  sort -nr 0119.txt | uniq -c > sorted0119.txt
+   12  vim sorted0119.txt
+   13  sort -k 1n sorted 0119.txt > ws3.txt
+   14  sort -k 1n sorted0119.txt >ws3.txt
+   15  ls
+   16  vim ws3.txt
+   17  rm -rf ws3.txt
+   18  sort -k 1n sorted0119.txt | head -3 > ws3.txt
+   19  vim ws3.txt
+   20  rm ws3.txt
+   21  sort -k 1n sorted0119.txt | tail -3 > ws3.txt
+   22  vim ws3.txt
+   23  ls
+   24  cut -d "," -f 8 2019-02 > 0219.txt
+   25  cut -d "," -f 8 2019-02.csv > 0219.txt
+   26  sort -nr 0219.txt | uniq -c > sorted0219.txt
+   27  sort -k 1n sorted0219.txt | tail -3 > ws3.txt
+   28  vim ws3.txt
+   29  ls
+   30  vim ws3.txt
+   31  sort -k 1n sorted0119.txt | tail -3 > ws3.txt
+   32  sort -k 1n sorted0219.txt | tail -3 >> ws3.txt
+   33  vim ws3.txt
+   34  vim ws3.txg
+   35  ls
+   36  vim ws3.txt
+   37  cd
+   38  ls
+   39  git init
+   40  mv ws3.txt ws3
+   41  cd ws3
+   42  ls
+   43  cd taxidata
+   44  ls
+   45  mv ws3.txt ws3
+   46  ls
+   47  cd ws3
+   48  vim ws3
+   49  mv ws3 ws3.txt
+   50  ls
+   51  mv ws3.txt ~/ws3
+   52  ls
+   53  cd
+   54  cd ws3
+   55  ls
+   56  vim ws3.txt
+   57  git status
+   58  git remote -v
+   59  git commit ws3.txt
+   60  ls
+   61  git commit -m ws3.txt
+   62  git add ws3.txt
+   63  git status
+   64  ls
+   65  history > cmd.logs

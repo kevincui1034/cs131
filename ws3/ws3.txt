@@ -1,0 +1,13 @@
+Total Number of IDs | Location
+
+January
+
+ 312392 161.0 3rd
+ 323008 236.0 2nd
+ 332473 237.0 Most Popular Location
+
+February
+
+ 280640 236.0 3rd
+ 286773 161.0 2nd
+ 294584 237.0 Most Popular Location
