@@ -1,0 +1,37 @@
+  543  touch .bash_profile
+  546  ls -a
+  547  vim .bash_profile
+  549  source .bash_profile
+  550  vim .bash_profile
+  557  mkdir ws4
+  558  cd ws4
+  559  mkdir FARE
+  560  cd FARE
+  561  cp /datasets/taxidata.tar.gz .
+  562  ls
+  563  tar -xvzf taxidata.tar.gz
+  564  ls
+  565  cd taxidata
+  566  ls
+  567  vim 2019-06.csv
+  574  grep "48.0,161.0" 2019-06.csv | cut -d "," -f 11 > 48.0-161.0.txt
+  575  ls
+  576  vim 48.0-161.0.txt
+  584  cat 48.0-161.0.txt | paste -sd+ - | bc -l > ws4.txt
+  585  vim ws4.txt
+  586  wc -l 48.0-161.0.txt
+  608  echo "$(cat ws4.txt) / 11674" | bc
+  609  echo "scale=2; $(cat ws4.txt) / 11674" | bc > ws5.txt
+  610  vim ws5.txt
+  611  rm ws4.txt
+  612  mv ws5.txt ws4.txt
+  613  ls
+  615  vim ws4.txt
+  630  grep "49.0,162.0" 2019-06.csv | cut -d "," -f 11 > 49.0-162.0.txt
+  631  vim 49.0-162.0.txt
+  632  cat 49.0-162.0.txt | paste -sd+ - | bc -l >> ws49.txt
+  633  vim ws49.txt
+  638  echo "scale =2; $(cat ws49.txt) / 1737" | bc
+  639  echo "scale =2; $(cat ws49.txt) / 1737" | bc >> ws4.txt
+  640  vim ws4.txt
+  643  history 200 > cmd.logs
