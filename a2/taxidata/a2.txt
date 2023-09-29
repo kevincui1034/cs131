@@ -1,0 +1,21 @@
+task1: 17.86549171397669692131
+
+task 2: 1309.8
+
+task3: Top 10
+  Count | Drop off Location
+  39909 236.0
+  37140 237.0
+  36990 161.0
+  33678 230.0
+  28506 170.0
+  27895 162.0
+  27485 48.0
+  26782 142.0
+  25051 239.0
+  24609 234.0 
+
+task 4: 52109 236.0  236 is the most popular drop off location, while 237 is the most popular pickup
+
+task 5:3641682 237.0  237 is the busiest pickup location from jan to dec in 2019
+

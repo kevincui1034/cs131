@@ -1,0 +1,56 @@
+  671  cd taxidata   ************TASK 1
+  672  ls
+  686  grep -E "^[^,]*,\"2019-05-11" 2019-05.csv | cut -d, -f 17 | bc -l >> fare.txt
+  687  paste -sd+ fare.txt | bc -l
+  688  paste -sd+ fare.txt | bc -l > a2.txt
+  690  ls
+  691  wc -l < fare.txt >> temp.txt
+  692  vim temp.txt
+  693  rm temp.txt
+  694  paste -sd+ fare.txt | bc -l > temp.txt
+  695  wc -l < fare.txt >> temp.txt
+  696  paste -sd/ temp.txt | bc -l
+  697  rm a2.txt
+  698  paste -sd/ temp.txt | bc -l > a2.txt
+  699  vim a2.txt
+  700  sort fare.txt
+  701  sort fare.txt | tail -1 > a2.txt
+  702  vim a2.txt
+  703  vim temp.txt
+  704  paste -sd/ temp.txt | bc -l >>  a2.txt
+  705  vim a2.txt
+  706  less 2019-05.csv     ***********TASK 2
+  707  grep -E "^[^,]*,\"2019-05-11" 2019-05.csv | cut -d, -f 17 > temp2.txt
+  708  sort temp2.txt
+  709  sort -n temp2.txt
+  710  sort -n temp2.txt | tail 1 >> a2.txt
+  711  sort -n temp2.txt | tail -1 >> a2.txt
+  712  vim a2.txt  *****************TASK 4
+ 855  grep -E "^[^,]*,\"2019-05-20" 2019-05.csv | grep -E "N,237.0" 2019-05.csv | cut -d, -f 9 | sort | uniq -c | sort -nrk 1 > temp5.txt
+  856  vim temp5.txt
+  857  vim a2.txt
+  858  vim temp5.txt
+  859  vim a2.txt *************TASK 5
+ 865   cut -d, -f 8 *.csv | sort | uniq -c | sort -nrk 1 > temp6.txt
+  866  vim temp6.txt
+  867  ls
+  868  head -1 temp6.txt >> a2.txt
+  869  vim a2.txt
+  870  ls
+  871  cd a2
+  872  ls
+  873  cd taxidata
+  874  git status
+  875  ls
+  876  vim 2019-05.csv **********TASK 3
+  877  cut -d, -f 4,9 2019-05.csv > temp7.txt
+  878  vim temp7.txt
+ 897  cut -d, -f 4,9 2019-05.csv | sort | awk -F, '$1 >= 3.0 {print $2, $1}' | sort | cut -d' ' -f 1 | uniq -c | sort -nrk 1 | head -10 > temp7.txt
+  898* vim temp
+  899  temp7.txt >> a2.txt
+  900  cat temp7.txt >> a2.txt
+  901  vim a2.txt
+  902  git add a2.txt
+  903  history > cmd.logs
+  904  vim cmd.logs
+ 920  history 250 > cmd.logs
