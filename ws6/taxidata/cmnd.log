@@ -1,0 +1,21 @@
+ 1000  mkdir ws6	###Directory Creation
+ 1001  ls
+ 1002  cd ws6
+ 1003  cp /datasets/taxidata.tar.gz .
+ 1004  tar -xzvf taxidata.tar.gz
+ 1008  cd taxidata
+ 1009  less 2019-11.csv
+ 1010  ls
+ 1018  sed -n '/^2.0,/p' 2019-11.csv > vendor2.csv	###Task 1
+ 1019  less vendor2.csv
+ 1020  wc vendor2.csv
+ 1021  wc -l vendor2.csv
+ 1024  sed 's/[:\"-]//g' 2019-11.csv > no-separators.csv	###Task 2
+ 1025  less no-separators.csv
+ 1043  sed 's/\.[0-9]*//g' no-separators.csv > no-fractions.csv		###Task 3
+ 1044  less no-fractions.csv
+ 1045  wc vendor2.csv > ws6.txt		###Appending results to ws6.txt
+ 1047  head -10 no-separators.csv >> ws6.txt
+ 1048  head -10 no-fractions.csv >> ws6.txt
+ 1049  vim ws6.txt
+ 1050  history 50 > cmnd.log
