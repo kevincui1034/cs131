@@ -1,0 +1,20 @@
+ 1023  ls
+ 1024  cd ws7
+ 1025  ls
+ 1026  tar -xzvf taxidata.tar.gz
+ 1027  ls
+ 1028  cd taxidata
+ 1029  ls
+ 1030  vim 2019-12.csv
+ 1031  ls
+ 1032  awk -F, '$17 >= 10.0 { tips[$14]++ } END { for (tip in tips) print tip, tips[tip] }' 2019-12.csv > results.txt
+ 1033  head results.txt
+ 1034  less results.txt
+ 1035  ls
+ 1036  awk '{ print $2, $1 }' results.txt | sort -nr | head -n 20 > ws7.txt
+ 1037  ls
+ 1038  vim ws7.txt
+ 1039  ls
+ 1040  history -20
+ 1041  history 20
+ 1042  history 20 > cmnd.log
