@@ -1,0 +1,20 @@
+    1  mkdir WS
+    2  cd WS
+    3  mkdir WS1
+    4  cd WS1
+    5  wget www.github.com
+    6  ls
+    7  cd ../
+    8  ls
+    9  git init
+   10  cd WS/WS1
+   11  cd ../
+   12  mv WS1 Worksheet1
+   13  ls
+   14  cd ../
+   15  git remote add origin https://github.com/kevincui1034/cs131.git
+   16  git status
+   17  git add -u
+   18  cd WS/WS1
+   19  cd WS/Worksheet1
+   20  history > cmd.logs
