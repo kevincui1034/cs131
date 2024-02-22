@@ -1,0 +1,14 @@
+  121  ls
+  122  cd WS
+  123  ls
+  124  mkdir WS2
+  125  cd WS2
+  126  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  127  ls
+  128  head `Global Youtube Statistics.csv'
+  129  ls
+  130  head Global\ YouTube\ Statistics.csv 
+  131  grep "United States" Global\ YouTube\ 
+  132  grep "Music" Global\ YouTube\ Statistics.csv | wc -lw > counts.txt
+  133  vim counts.txt 
+  134  history 10 >> cmd.logs
