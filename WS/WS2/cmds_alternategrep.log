@@ -1,0 +1,5 @@
+  193  grep -E "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,Music(,|$)" Global\ YouTube\ Statistics.csv | wc -l > counts2.txt
+  194  head counts2.txt
+  195  grep -E "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,Music(,|$)" Global\ YouTube\ Statistics.csv | wc -w >> counts2.txt
+  196  head counts2.txt
+  197  history 5 > cmds_alternategrep.log
