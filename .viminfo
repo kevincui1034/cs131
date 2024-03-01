@@ -15,7 +15,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1709278933,,"wq"
+|2,0,1709279019,,"wq"
 :q
 |2,0,1709278874,,"q"
 
@@ -32,36 +32,62 @@ $
 # Registers:
 
 # File marks:
-'0  3  9  ~/.gitignore
-|4,48,3,9,1709278933,"~/.gitignore"
-'1  7  0  ~/.git/branches
-|4,49,7,0,1709278874,"~/.git/branches"
-'2  7  15  ~/.gitignore
-|4,50,7,15,1709278681,"~/.gitignore"
-'3  7  15  ~/.gitignore
-|4,51,7,15,1709278681,"~/.gitignore"
-'4  5  12  ~/.gitignore
-|4,52,5,12,1709278580,"~/.gitignore"
-'5  5  12  ~/.gitignore
-|4,53,5,12,1709278580,"~/.gitignore"
-'6  5  12  ~/.gitignore
-|4,54,5,12,1709278580,"~/.gitignore"
-'7  5  12  ~/.gitignore
-|4,55,5,12,1709278580,"~/.gitignore"
-'8  1  44  ~/.gitignore
-|4,56,1,44,1709278341,"~/.gitignore"
-'9  1  44  ~/.gitignore
-|4,57,1,44,1709278341,"~/.gitignore"
+'0  5  7  ~/.gitignore
+|4,48,5,7,1709279019,"~/.gitignore"
+'1  7  2  ~/.gitignore
+|4,49,7,2,1709279007,"~/.gitignore"
+'2  6  2  ~/.gitignore
+|4,50,6,2,1709279007,"~/.gitignore"
+'3  3  9  ~/.gitignore
+|4,51,3,9,1709278933,"~/.gitignore"
+'4  3  9  ~/.gitignore
+|4,52,3,9,1709278933,"~/.gitignore"
+'5  3  9  ~/.gitignore
+|4,53,3,9,1709278933,"~/.gitignore"
+'6  3  9  ~/.gitignore
+|4,54,3,9,1709278933,"~/.gitignore"
+'7  7  0  ~/.git/branches
+|4,55,7,0,1709278874,"~/.git/branches"
+'8  8  15  ~/.gitignore
+|4,56,8,15,1709278681,"~/.gitignore"
+'9  8  15  ~/.gitignore
+|4,57,8,15,1709278681,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  5  7  ~/.gitignore
+|4,39,5,7,1709279019,"~/.gitignore"
+-'  7  2  ~/.gitignore
+|4,39,7,2,1709279010,"~/.gitignore"
+-'  6  2  ~/.gitignore
+|4,39,6,2,1709279007,"~/.gitignore"
+-'  3  9  ~/.gitignore
+|4,39,3,9,1709278988,"~/.gitignore"
+-'  3  9  ~/.gitignore
+|4,39,3,9,1709278988,"~/.gitignore"
 -'  3  9  ~/.gitignore
 |4,39,3,9,1709278933,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1709278904,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1709278904,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1709278904,"~/.gitignore"
 -'  7  0  ~/.git/branches
 |4,39,7,0,1709278874,"~/.git/branches"
 -'  7  0  ~/.git/branches
 |4,39,7,0,1709278874,"~/.git/branches"
+-'  7  0  ~/.git/branches
+|4,39,7,0,1709278874,"~/.git/branches"
+-'  7  0  ~/.git/branches
+|4,39,7,0,1709278874,"~/.git/branches"
+-'  7  0  ~/.git/branches
+|4,39,7,0,1709278874,"~/.git/branches"
+-'  7  0  ~/.git/branches
+|4,39,7,0,1709278874,"~/.git/branches"
+-'  7  0  ~/.git/branches
+|4,39,7,0,1709278874,"~/.git/branches"
+-'  7  0  ~/.git/branches
+|4,39,7,0,1709278874,"~/.git/branches"
 -'  8  0  ~/.git
 |4,39,8,0,1709278871,"~/.git"
 -'  1  0  ~/.git
@@ -70,12 +96,44 @@ $
 |4,39,8,0,1709278871,"~/.git"
 -'  1  0  ~/.git
 |4,39,1,0,1709278871,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1709278871,"~/.git"
+-'  1  0  ~/.git
+|4,39,1,0,1709278871,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1709278871,"~/.git"
+-'  1  0  ~/.git
+|4,39,1,0,1709278871,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1709278871,"~/.git"
+-'  1  0  ~/.git
+|4,39,1,0,1709278871,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1709278871,"~/.git"
+-'  1  0  ~/.git
+|4,39,1,0,1709278871,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1709278871,"~/.git"
+-'  1  0  ~/.git
+|4,39,1,0,1709278871,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1709278871,"~/.git"
+-'  1  0  ~/.git
+|4,39,1,0,1709278871,"~/.git"
+-'  8  15  ~/.gitignore
+|4,39,8,15,1709278681,"~/.gitignore"
 -'  7  15  ~/.gitignore
 |4,39,7,15,1709278681,"~/.gitignore"
 -'  7  15  ~/.gitignore
 |4,39,7,15,1709278681,"~/.gitignore"
 -'  7  15  ~/.gitignore
 |4,39,7,15,1709278681,"~/.gitignore"
+-'  7  15  ~/.gitignore
+|4,39,7,15,1709278681,"~/.gitignore"
+-'  6  12  ~/.gitignore
+|4,39,6,12,1709278671,"~/.gitignore"
+-'  5  12  ~/.gitignore
+|4,39,5,12,1709278671,"~/.gitignore"
 -'  5  12  ~/.gitignore
 |4,39,5,12,1709278671,"~/.gitignore"
 -'  5  12  ~/.gitignore
@@ -162,111 +220,56 @@ $
 |4,39,1,44,1709278307,"~/.ssh/.gitignore"
 -'  1  44  ~/.ssh/.gitignore
 |4,39,1,44,1709278307,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/.ssh/.gitignore
-|4,39,1,0,1709278293,"~/.ssh/.gitignore"
--'  1  0  ~/id_rsa
-|4,39,1,0,1709277609,"~/id_rsa"
--'  1  0  ~/id_rsa
-|4,39,1,0,1709277609,"~/id_rsa"
--'  1  0  ~/id_rsa
-|4,39,1,0,1709277609,"~/id_rsa"
--'  1  0  ~/id_rsa
-|4,39,1,0,1709277609,"~/id_rsa"
--'  1  0  ~/id_rsa
-|4,39,1,0,1709277609,"~/id_rsa"
--'  1  0  ~/id_rsa
-|4,39,1,0,1709277609,"~/id_rsa"
--'  1  0  ~/id_rsa
-|4,39,1,0,1709277609,"~/id_rsa"
--'  1  0  ~/id_rsa
-|4,39,1,0,1709277609,"~/id_rsa"
--'  1  0  ~/id_rsa
-|4,39,1,0,1709277609,"~/id_rsa"
--'  1  0  ~/id_rsa
-|4,39,1,0,1709277609,"~/id_rsa"
--'  1  0  ~/id_rsa
-|4,39,1,0,1709277609,"~/id_rsa"
--'  1  0  ~/id_rsa
-|4,39,1,0,1709277609,"~/id_rsa"
--'  1  0  ~/id_rsa
-|4,39,1,0,1709277609,"~/id_rsa"
--'  1  0  ~/id_rsa
-|4,39,1,0,1709277609,"~/id_rsa"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
+-'  1  44  ~/.ssh/.gitignore
+|4,39,1,44,1709278307,"~/.ssh/.gitignore"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1709278932	0
-	"	3	9
-	^	3	10
-	.	3	7
+	*	1709279018	0
+	"	5	7
+	^	5	8
+	.	5	7
 	+	1	44
 	+	2	0
-	+	5	13
-	+	7	15
-	+	3	7
+	+	6	13
+	+	8	15
+	+	3	10
+	+	7	2
+	+	4	5
+	+	5	7
 
 > ~/.ssh/.gitignore
 	*	1709278302	0
