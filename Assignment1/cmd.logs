@@ -1,0 +1,77 @@
+    1  mkdir Assignment1    Question1
+    2  ls Assignment1/
+    3  cd Assignment1/
+    4  echo $SHELL	Question2
+    5  echo $SHELL > Assignment1.txt
+    6  cat Assignment1.txt 
+    7  vim Assignment1.txt 
+    8  echo $HOME >> Assignment1.txt	Question3 
+    9  cat Assignment1.txt 
+   10  id
+   11  id >> Assignment1.txt	Question4
+   12  mkdir myDir	Question5
+   13  chmod u-w myDir
+   14  stat myDir
+   15  ls -l myDir/
+   16  ls -ld myDir/
+   17  cd myDir/
+   18  ls
+   19  touch text.txt
+   20  cd ..
+   21  vim Assignment1.txt 
+   22  ls
+   23  cd myDir/
+   24  cd
+   25  cd /Assignment1/myDir/
+   26  cd ./Assignment1/myDir/
+   27  ls
+   28  ls -l
+   29  cd ..
+   30  mkdir myDir2	Question6
+   31  mkdir myDir3
+   32  cd myDir2
+   33  touch myFile.txt
+   34  mv myFile.txt ./myDir3
+   35  ls
+   36  mv myDir3 myFile.txt
+   37  mv myFile.txt /myDir3
+   38  mv myFile.txt ~/myDir3
+   39  ls
+   40  cd ../myDir3
+   41  ls
+   42  cd .
+   43  cd ..
+   44  ls
+   45  cd
+   46  ls
+   47  mv myDir3 myFile.txt
+   48  ls
+   49  rm myFile.txt
+   50  ls
+   51  cd Assignment1/
+   52  ls
+   53  cd myDir2
+   54  ls
+   55  touch myFile.txt
+   56  ls
+   57  cd ../myDir3
+   58  pwd
+   59  cd ../myDir2
+   60  mv myFile.txt /mnt/scratch/FA23_CS131_Ashish/kevinsp24/Assignment1/myDir3
+   61  ls
+   62  cd ../myDir3
+   63  ls
+   64  cd
+   65  free -m		Question7
+   66  cat /etc/os-release	Question8
+   67  ls -l /etc/os-release
+   68  cd Assignment1
+   69  ls -l /etc/os-release >> Assignment1.txt Question9
+   70  ls
+   71  vim Assignment1.txt 
+   72  ls
+   73  ls -l /etc/os-release >> Assignment1.txt 
+   74  vim Assignment1.txt 
+   75  cat /etc/os-release
+   76  vim Assignment1.txt 
+   77  history > cmd.logs
