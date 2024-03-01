@@ -18,6 +18,7 @@ touch myFile.txt
 mv myFile.txt myDir2/myDir3/
 
 7. free -m
+total memory = 71367 meibibytes
 
 8. cat /etc/os-release
 8.6 (Ootpa)
