@@ -1,0 +1,48 @@
+1. We are trying to find in regular files in the directory, "/etc", then
+redirecting the output to "one.txt". Thereafter, it redirects the standard error, or the error messages from the find command to "two.txt".
+
+2.
+     12 Channels in 2014,Aug
+     13 Channels in 2014,Jul
+     15 Channels in 2006,Mar
+
+The commands used was:
+cut -d ',' -f 21,20 'Global.csv' | sort | uniq -c | sort -n | tail -3 > sortedyear.txt
+
+Cuts the file to columns 21 and 20 using the delimiter ',' from the csv file,
+then sorts the file for uniq count then sorts numerically and gets the bottom 3
+of the file and outputs it into a file called sortedyear.txt then append to thisfile.
+3.
+whoami
+ps -u $kevinsp24
+
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kevinsp+ 3570074  0.0  0.0  19840  7808 pts/49   Ss   01:47   0:00 -bash
+kevinsp+ 3589489  0.0  0.0  25344  8000 pts/2    R+   02:37   0:00 ps -u
+
+4. I noticed that there was a process opened by the command vi file.txt, as well as another -bash process opened because another terminal is open.
+The PID is 3589198.
+
+b)
+
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kevinsp+ 3570074  0.0  0.0  19840  7808 pts/49   Ss   01:47   0:00 -bash
+kevinsp+ 3589131  0.0  0.0  19840  7808 pts/2    Ss   02:36   0:00 -bash
+kevinsp+ 3589805  0.0  0.0  26112 11904 pts/49   S+   02:38   0:00 vim file.txt
+kevinsp+ 3591017  0.0  0.0  25344  8064 pts/2    R+   02:41   0:00 ps -u
+
+d)
+
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kevinsp+ 3570074  0.0  0.0  19840  7808 pts/49   Ss+  01:47   0:00 -bash
+kevinsp+ 3589131  0.0  0.0  19840  7808 pts/2    Ss   02:36   0:00 -bash
+kevinsp+ 3591396  0.0  0.0  25344  8000 pts/2    R+   02:42   0:00 ps -u
+
+The vim process closed. It changed because the process closed in the other terminal.
+
+5.
+The init process is the first process started by kernel.
+
+ps -eo pid,comm | head -2
+    PID COMMAND
+      1 systemd
