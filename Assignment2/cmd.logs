@@ -1,0 +1,134 @@
+  140  mkdir Assignment2
+  141  cd Assignment2
+  142  vim Assignment2.txt
+  143  find /etc -type f > one.txt 2> two.txt
+  144  ls
+  145  vim Assignment2.txt
+  146  cat one.txt | cat two.txt
+  147  chmod +r one.txt two.txt
+  148  cat one.txt two.txt
+  149  cat one.txt | cat two.txt
+  150  vim one.txt
+  151  ls
+  152  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  153  ls
+  154  cat 'Global YouTube Statistics.csv' 
+  155  head 'Global YouTube Statistics.csv' 
+  156  cut -d ',' -f 22,21 'Global YouTube Statistics.csv' > youtube.txt
+  157  sort youtube.txt | uniq -c
+  158  uniq -c youtube.txt | sort -n
+  159  uniq -c youtube.txt | sort -n | tail
+  160  uniq -c youtube.txt | sort -n | head
+  161  uniq -c youtube.txt | sort | head
+  162  sort youtube.txt | uniq -c | sort
+  163  uniq -c  youtube.txt | sort
+  164  uniq -c  youtube.txt | sort > sorted.txt
+  165  vim sorted.txt
+  166  head sorted.txt 
+  167  tail sorted.txt 
+  168  sort youtube.txt | uniq -c
+  169  sort youtube.txt | uniq -c > sorted.txt 
+  170  sort youtube.txt | uniq -c | sort > sorted.txt 
+  171  tail sorted.txt 
+  172  head sorted.txt 
+  173  tail 3 sorted.txt
+  174  tail -3 sorted.txt
+  175  tail -3 sorted.txt >> Assignment2.txt
+  176  vim Assignment2.txt 
+  177  ls
+  178  cut -d ',' 20,21 'Global YouTube Statistics.csv' >year.txt
+  179  cut -d ',' 20,21 -f 'Global YouTube Statistics.csv' >year.txt
+  180  cut -d ',' -f 20,21 'Global YouTube Statistics.csv' >year.txt
+  181  head year.txt 
+  182  sort year.txt | uniq -c | sort
+  183  cut -d ',' -f 20,21 'Global YouTube Statistics.csv' >year.txt
+  184  sort year.txt | uniq -c | sort > sortedyear.txt
+  185  head sortedyear.txt 
+  186  tail  sortedyear.txt 
+  187  tail sortedyear.txt 
+  188  vim sortedyear.txt 
+  189  vi sortedyear.txt 
+  190  cut -d ',' -f 20,21 'Global YouTube Statistics.csv' >year.txt
+  191  vim year.txt 
+  192  uniq -c > year.txt | sort > sortedyear.txt
+  193  ls
+  194  uniq -c > year.txt | sort
+  195  cut -d ',' -f 20,21 'Global YouTube Statistics.csv' >year.txt
+  196  sort year.txt | uniq -c > sortedyear.txt 
+  197  vim sortedyear.txt 
+  198  sort sortedyear.txt 
+  199  sort -k 1 sortedyear.txt
+  200  sort -k 1,1 sortedyear.txt
+  201  sort sortedyear.txt 
+  202  head -3 sortedyear.txt >> Assignment2.txt
+  203  vim Assignment2.txt 
+  204  head -3 sortedyear.txt 
+  205  tail -3 sortedyear.txt 
+  206  ls
+  207  head sortedyear.txt
+  208  sort sortedyear.txt
+  209  head sortedyear.txt
+  210  sort -k 1 sortedyear.txt
+  211  head sortedyear.txt
+  212  sort -k1 sortedyear.txt
+  213  head sortedyear.txt
+  214  sort -t ' ' -k1 sortedyear.txt
+  215  head sortedyear.txt
+  216  sort -t ' ' -k1,1 sortedyear.txt
+  217  head sortedyear.txt
+  218  tail sortedyear.txt 
+  219  cut -d ',' -f 21,20 'Global YouTube Statistics.csv' | sort > year.txt
+  220  head year.txt 
+  221  uniq -c year.txt | sort -n > sortedyear.txt 
+  222  head sortedyear.txt
+  223  tail sortedyear.txt
+  224  tail -3 sortedyear.txt >> Assignment2.txt 
+  225  vim Assignment2.txt 
+  226  ls
+  227  rm sorted.txt 
+  228  rm year.txt
+  229  head youtube.txt 
+  230  rm youtube.txt
+  231  vim Assignment2.txt 
+  232  whoami
+  233  ps -u $(kevinsp24)
+  234  ps -u $(kevinsp24) >> Assignment2.txt
+  235  vim Assignment2.txt 
+  236  vi file.txt
+  237  ps -u $kevinsp24
+  238  ls
+  239  cd Assignment2
+  240  ps -u $kevinsp24 >> Assignment2.txt
+  241  vim Assignment2.txt 
+  242  ps -u $kevinsp24
+  243  vim Assignment2.txt 
+  244  ps -u $kevinsp24 >> Assignment2.txt
+  245  vim Assignment2.txt 
+  246  ps -u $kevinsp24
+  247  ps -u $kevinsp24 >> Assignment2.txt
+  248  ps -u $kevinsp24
+  249  vim Assignment2.txt 
+  250  ps -eo pid,comm
+  251  ps -eo pid,comm head
+  252  ps -eo pid,comm | head
+  253  vim Assignment2.txt 
+  254  ps -eo pid,comm | head -1 >> Assignment2.txt
+  255  vim Assignment2.txt
+  256  ps -eo pid,comm | head -2  >> Assignment2.txt
+  257  vim Assignment2.txt
+  258  git status
+  259  cd
+  260  git status
+  261  git add .
+  262  git commit -m "AS2"
+  263  git push
+  264  ps aux
+  265  ps aux | head
+  266  cd Assignment2
+  267  vim Assignment2.txt
+  268  history > cmd.logs
+  269  vim cmd.logs
+  270  history
+  271  cd Assignment2
+  272  rm cmd.logs
+  273  history > cmd.logs

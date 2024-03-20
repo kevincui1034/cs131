@@ -46,3 +46,5 @@ The init process is the first process started by kernel.
 ps -eo pid,comm | head -2
     PID COMMAND
       1 systemd
+
+6. ps aux is a command that lists all running processes on the system. ps shows the process status, while aux are the options specified. a shows processes from all users, u details information about each, and x includes processes not attached to a terminal.
