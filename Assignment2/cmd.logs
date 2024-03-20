@@ -1,7 +1,7 @@
   140  mkdir Assignment2
   141  cd Assignment2
   142  vim Assignment2.txt
-  143  find /etc -type f > one.txt 2> two.txt
+  143  find /etc -type f > one.txt 2> two.txt		Question1
   144  ls
   145  vim Assignment2.txt
   146  cat one.txt | cat two.txt
@@ -9,7 +9,7 @@
   148  cat one.txt two.txt
   149  cat one.txt | cat two.txt
   150  vim one.txt
-  151  ls
+  151  ls						Question2
   152  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
   153  ls
   154  cat 'Global YouTube Statistics.csv' 
@@ -90,11 +90,11 @@
   229  head youtube.txt 
   230  rm youtube.txt
   231  vim Assignment2.txt 
-  232  whoami
-  233  ps -u $(kevinsp24)
+  232  whoami				Question3
+  233  ps -u $(kevinsp24)	
   234  ps -u $(kevinsp24) >> Assignment2.txt
-  235  vim Assignment2.txt 
-  236  vi file.txt
+  235  vim Assignment2.txt 		
+  236  vi file.txt			Question4
   237  ps -u $kevinsp24
   238  ls
   239  cd Assignment2
@@ -108,7 +108,7 @@
   247  ps -u $kevinsp24 >> Assignment2.txt
   248  ps -u $kevinsp24
   249  vim Assignment2.txt 
-  250  ps -eo pid,comm
+  250  ps -eo pid,comm				Question5
   251  ps -eo pid,comm head
   252  ps -eo pid,comm | head
   253  vim Assignment2.txt 
@@ -122,7 +122,7 @@
   261  git add .
   262  git commit -m "AS2"
   263  git push
-  264  ps aux
+  264  ps aux				Question6
   265  ps aux | head
   266  cd Assignment2
   267  vim Assignment2.txt
