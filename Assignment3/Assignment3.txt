@@ -25,7 +25,7 @@ Task3:
 awk -F'[:]' '{print $1}' lastsp24.fake  > test.fake
 awk '{print $1, $NF}' test.fake > test2.fake
 awk '$2 >= 23 || $2 <= 4 test2.fake' > test3.fake
-awk '{print $1}' test3.fake > test4.fake | sort | uniq
+awk '{print $1}' test3.fake | sort | uniq > test4.fake
 
 aarushisp24
 aayushsp24
@@ -80,5 +80,78 @@ Task 4:
 awk -F'[:]' '{print $1}' lastsp24.fake  > test.fake
 awk '{print $1, $NF}' test.fake > test2.fake
 awk '$2 >= 5 || $2 <= 9' test2.fake > test3.fake
-awk '{print $1}' test3.fake > test4.fake | sort | uniq
+awk '{print $1}' test3.fake | sort | uniq > test4.fake
 
+aarushisp24
+aayushsp24
+acesp24
+ajaysp24
+akashsp24
+albertsp24
+alexsp24
+amansp24
+athishsp24
+atishaysp24
+ayesp24
+benjaminsp24
+bennysp24
+billysp24
+brandonsp24
+breannasp24
+briansp24
+chih-kuosp24
+connersp24
+daosp24
+davidsp24
+diyasp24
+dylansp24
+edisonsp24
+ericsp24
+farihasp24
+fnusp24
+gavinsp24
+georgesp24
+gradysp24
+gursimransp24
+hardiksp24
+jadonsp24
+
+Task 5:
+awk '$1 ~ /^t/'  lastsp24.fake | awk '{print $1}' | sort | uniq > task5.fake
+
+taliasp24
+tanishasp24
+tylermsp24
+tylersp24
+
+Task6:
+awk -F'[:]' '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake> task6.fake
+
+aayushsp24
+acesp24
+ajay23fa
+ajaysp24
+akashsp24
+alan23fa
+alexsp24
+amansp24
+amreenf23
+angie23fa
+apple23fa
+areebah23fa
+ashish
+ayesp24
+
+Task7:
+sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u > task7.fake
+
+-::::-:/://
+-:::::///-://
+-:::::///__/-://
+-:::::/://
+::::-:///://
+:::::///://
+:::::///_/://
+:::::///__/://
+::::://://
+:::::/://
