@@ -1,0 +1,350 @@
+  306  script ws4.txt
+  307  git status
+  308  git add .
+  309  git commit -m "ws4"
+  310  git push
+  311  ls
+  312  touch perm.sh
+  313  vim perm.sh
+  314  bash perm.sh
+  315  vim perm.sh
+  316  bash perm.sh
+  317  vim perm.sh
+  318  bash perm.sh
+  319  vim perm.sh
+  320  bash perm.sh
+  321  vim perm.sh
+  322  bash perm.sh
+  323  vim perm.sh
+  324  bash perm.sh
+  325  vim perm.sh
+  326  bash perm.sh
+  327  vim perm.sh
+  328  bash perm.sh
+  329  vim perm.sh
+  330  bash perm.sh
+  331  vim perm.sh
+  332  ls -ltr
+  333  vim perm.sh
+  334  bash perm.sh
+  335  vim perm.sh
+  336  bash perm.sh
+  337  ls
+  338  mkdir Assignment3
+  339  cd Assignment3
+  340  ls
+  341  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/last.fake      ####TASK 1
+  342  ls
+  343  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/passwd.fake
+  344  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/ps.fake
+  345  ls
+  346  head last.fake
+  347  wc -l last.fake
+  348  ls
+  349  awk '$1 ~ /sp24/' last.fake > lastsp24.fake
+  350  wc -l lastsp24.fake 
+  351  vim Assignment3.txt
+  352  l
+  353  ls
+  354  head last.fake
+  355  grep Sun last.fake		### TASK 2
+  356  grep Sun lastsp24.fake | awk $1 | uniq | sort > last2.fake
+  357  grep Sun lastsp24.fake | awk '{print $1}' | uniq | sort > last2.fake
+  358  vim last2.fake
+  359  grep Sun lastsp24.fake | awk '{print $1}' | uniq -c | sort > last2.fake
+  360  vim last2.fake
+  361  grep Sun lastsp24.fake | awk '{print $1}' > last3.fake
+  362  vim last3.fake
+  363  grep Sun lastsp24.fake | awk '{print $1}' |sort| uniq > last2.fake
+  364  vim last3.fake
+  365  vim last2.fake
+  366  rm last3.fake
+  367  ls
+  368  vim Assignment3.txt 
+  369  vim last2.fake
+  370  vim Assignment3.txt 
+  371  vim last2.fake
+  372  vim Assignment3.txt 
+  373  head last.fake
+  374  awk '{print $4}'				### TASK 3
+  375  awk '{print $4}' > test.fake
+  376  awk '{print $4}' lastsp24.fake> test.fake
+  377  vim test.fake
+  378  awk '{print $7}' lastsp24.fake> test.fake
+  379  vim test.fake
+  380  awk -F'[: ]' '$7 >= 23 || $7 <= 4' > test.fake
+  381  awk -F'[: ]' '$7 >= 23 || $7 <= 4' lastsp24.fake> test.fake
+  382  vim test.fake
+  383  awk '$7 >= 23 || $7 <= 4' lastsp24.fake> test.fake
+  384  vim test.fake
+  385  awk '$4 >= 23 || $4 <= 4' lastsp24.fake> test.fake
+  386  vim test.fake
+  387  awk -F'[: ]''$4 >= 23 || $4 <= 4' lastsp24.fake> test.fake
+  388  awk -F'[: ]' '$4 >= 23 || $4 <= 4' lastsp24.fake> test.fake
+  389  vim test.fake
+  390  rm test.fake
+  391  awk -F'[: ]' '$4 >= 23 || $4 <= 4' lastsp24.fake> test.fake
+  392  vim test.fake
+  393  awk -F'[: ]' '$4 >= 23 || $4 <= 4' lastsp24.fake> test.fake | sort -k 7
+  394  vim test.fake
+  395  awk -F'[: ]' '$4 >= 23 || $4 <= 4' lastsp24.fake|sort -k 7 > test.fake
+  396  vim test.fake
+  397  awk '$7 ~ /11:|12:|01:|02:|03:|04:/ {print $1}' lastsp24.fake | sort | uniq > test.fake
+  398  vim test.fake
+  399  awk '$7 ~ /11:|12:|01:|02:|03:|04:/' lastsp24.fake | sort | uniq > test.fake
+  400  vim test.fake
+  401  awk '$7 ~ /11:|12:|01:|02:|03:|04:/' lastsp24.fake | sort -k 7| uniq > test.fake
+  402  vim test.fake
+  403  ls
+  404  cd Assignment3
+  405  ls
+  406  vim test.fake
+  407  awk '$7 >= 23 || $7 <= 4' lastsp24.fake> test.fake
+  408  vim test.fake 
+  409  awk '{print$7}' lastsp24.fake > test.fake 
+  410  vim test.fake [B
+  411  awk -F'[: ]' '{print$1}' lastsp24.fake > test.fake 
+  412  vim test.fake [B
+  413  awk -F'[: ]' '{print$7}' lastsp24.fake > test.fake 
+  414  vim test.fake [B
+  415  vim test.fake
+  416  awk -F'[: ]' '{print$6}' lastsp24.fake > test.fake 
+  417  vim test.fake
+  418  awk -F'[: ]' '{print$4}' lastsp24.fake > test.fake 
+  419  vim test.fake
+  420  awk -F'[: ]' '{print$3}' lastsp24.fake > test.fake 
+  421  vim test.fake
+  422  awk -F'[: ]' '{print$1}' lastsp24.fake > test.fake 
+  423  vim test.fake
+  424  vim lastsp24.fake 
+  425  awk -F'[: ]' '{print$1}' lastsp24.fake > test.fake 
+  426  vim lastsp24.fake 
+  427  vim test.fake
+  428  awk -F'[: ]' '{print $1}' lastsp24.fake > test.fake 
+  429  vim test.fake
+  430  awk -F'[:]' '{print $1}' lastsp24.fake > test.fake 
+  431  vim test.fake
+  432  awk -F'[:]' '{print $6}' lastsp24.fake > test.fake 
+  433  vim test.fake
+  434  awk -F'[:]' '{print $1}' lastsp24.fake > test.fake 
+  435  vim test.fake
+  436  awk '{print $5}' > test2.fake
+  437  awk '{print $5}' test.fake > test2.fake
+  438  vim test2.fake
+  439  vim test.fake
+  440  awk '{print $NF}' fake.test > fake2.test
+  441  awk '{print $NF}' test.fake > test2.fake
+  442  vim test2.fake
+  443  awk '{print $1}{print $NF}' test.fake > test2.fake
+  444  vim test2.fake
+  445  awk '{print $1} {print $NF}' test.fake > test2.fake
+  446  vim test2.fake
+  447  awk '{print $1, $NF}' test.fake > test2.fake
+  448  awk '{print $1, $NF}' test.fake > test2.fake | awk -F '$2>=23||$2<=4' > test3.fake
+  449  awk '{print $1, $NF}' test.fake > test2.fake | awk '$2>=23 || $2<=4 ' > test3.fake
+  450  vim test3.fake
+  451  vim test2.fake
+  452  awk '{print $2}' test2.fake > test3.fake
+  453  vim test3.fake 
+  454  awk '$2 >= 34 || $2 <= 4' test2.fake > test3.fake
+  455  vim test3.fake 
+  456  awk '$2 >= 23 || $2 <= 4' test2.fake > test3.fake
+  457  vim test3.fake 
+  458  awk '$2 >= 23 || $2 <= 4' test2.fake > test3.fake | sort | uniq
+  459  vim test3.fake 
+  460  awk '$2 >= 23 || $2 <= 4' test2.fake > test3.fake | sort | uniq
+  461  vim test3.fake 
+  462  uniq test3.fake
+  463  sort test3.fake | uniq
+  464  sort test3.fake | uniq test3.fake
+  465  sort test3.fake | uniq test3.fake > test4.fake
+  466  vim test4.fake
+  467  sort -k 1 test3.fake | uniq test3.fake > test4.fake
+  468  vim test4.fake
+  469  sort -k 1 test3.fake | uniq -f 2 test3.fake > test4.fake
+  470  vim test4.fake
+  471  sort -k 1 test3.fake | uniq  test3.fake > test4.fake
+  472  vim test4.fake
+  473  sort -k 1 test3.fake | uniq  test3.fake > test4.fake
+  474  vim test4.fake
+  475  sort test3.fake > test4.fake
+  476  vim test4.fake
+  477  sort test3.fake | uniq > test4.fake
+  478  vim test4.fake
+  479  sort test3.fake | uniq -f 2 > test4.fake
+  480  vim test4.fake
+  481  sort test3.fake | uniq -f 1 > test4.fake
+  482  vim test4.fake
+  483  sort test3.fake | uniq  > test4.fake
+  484  vim test4.fake
+  485  awk '{print $1}' test4.fake | uniq > test5.fake
+  486  vim test5.fake
+  487  awk '{print $1}' test4.fake | sort | uniq > test5.fake
+  488  vim test5.fake
+  489  ls
+  490  awk '{print $1}' test4.fake | sort | uniq > test5.fake >> Assignment3.txt
+  491  vim Assignment3.txt
+  492  head test.fake
+  493  awk -F'[:]' '{print $1}' > test2.fake
+  494  awk -F'[:]' '{print $1}' test.fake > test2.fake
+  495  vim test2.fake
+  496  vim Assignment3.txt 
+  497  awk '{print $1, $NF}' test.fake > test2.fake | awk '$2>=23 || $2<=4 ' > test3.fake
+  498  vim test3.fake
+  499  vim test2.fake
+  500  vim test.fake
+  501  ls
+  502  vim lastsp24.fake
+  503  awk -F'[:]' '{print $1}' lastsp24.fake  > test.fake
+  504  vim test.fake
+  505  vim Assignment3.txt 
+  506  awk -F'[:]' '{print $1}' lastsp24.fake  > test.fak
+  507  vim Assignment3.txt 
+  508  awk '{print $1, $NF}' test.fake > test2.fake | awk '$2>=23 || $2<=4 ' > test3.fake
+  509  vim test2.fake
+  510  vim test3.fake
+  511  awk '{print $1, $NF}' test.fake > test2.fake
+  512  vim test2.fake
+  513  vim Assignment3.txt 
+  514  rm test4.fake
+  515  ls
+  516  vim test5.take
+  517  vim test5.fake
+  518  rm  test5.fake
+  519  rm test.fak
+  520  ls
+  521  vim test2.fake
+  522  :q
+  523  vim Assignment3.txt 
+  524  awk '{print $1, $NF}' test.fake > test2.fake
+  525  vim test2.fake
+  526  awk '{print $1, $NF}' test.fake > test2.fake | sort -k2
+  527  vim test2.fake
+  528  awk '{print $1, $NF}' test.fake > test2.fake | awk '$2 >= 23 || $2 <= 4' > test3.fake
+  529  vim test3.fake
+  530  awk '{print $1, $NF}' test.fake > test2.fake | awk '$2 >= 23 || $2 <= 4' test2.fake > test3.fake
+  531  vim test3.fake
+  532  vim test2.fake
+  533  awk '$2 >= 23 || $2 <= 4' test2.fake > test3.fake
+  534  vim test3.fake
+  535  vim Assignment3.txt 
+  536  git status
+  537  git add .
+  538  git commit -m "AS3"
+  539  git add .
+  540  git status
+  541  git push
+  542  ls
+  543  cd Assignment3
+  544  ls
+  545  vim Assignment3.txt 
+  546  awk '{print $1}' test3.fake > test4.fake | sort | uniq
+  547  ls
+  548  vim test4.fake
+  549  sort test4.fake | uniq
+  550  :q
+  551  sort test4.fake | uniq > test4.fake
+  552  vim test4.fake
+  553  sort test4.fake | uniq >> test4.fake
+  554  vim test4.fake
+  555  sort test4.fake | uniq
+  556  awk '{print $1}' test3.fake > test4.fake | sort | uniq
+  557  vim test4.fake
+  558  awk '{print $1}' test3.fake | sort | uniq > test4.fake
+  559  vim test4.fake
+  560  vim Assignment3.txt 
+  561  awk -F'[:]' '{print $1}' lastsp24.fake  > test.fake
+  562  vim Assignment3.txt 
+  563  awk '{print $1, $NF}' test.fake > test2.fake
+  564  vim Assignment3.txt 
+  565  awk '$2 >= 5 || $2 <= 9' test2.fake > test3.fake   #### TASK 4
+  566  vim test3.fake
+  567  vim Assignment3.txt 
+  568  awk '{print $1}' test3.fake | sort | uniq > test4.fake
+  569  vim test4.fake
+  570  test4.fake >> Assigment3.txt
+  571  vim Assignment3.txtaarushisp24
+  572  vim Assignment3.txt
+  573  ls
+  574  head lastsp24.fake			##### TASK 5
+  575  awk '$1 ~ /^T/'  lastsp24.fake > task5.fake
+  576  vim task5.fake 
+  577  awk '$1 ~ /^T/'  lastsp24.fake
+  578  awk '$1 ~ /^t/'  lastsp24.fake > task5.fake
+  579  vim task5.fake 
+  580  awk '$1 ~ /^t/'  lastsp24.fake | awk '{print $1}' > task5.fake
+  581  vim task5.fake 
+  582  awk '$1 ~ /^t/'  lastsp24.fake | awk '{print $1}' | sort | uniq > task5.fake
+  583  vim task5.fake 
+  584  vim Assignment3.txt
+  585  vim task5.fake 
+  586  vim Assignment3.txt
+  587  vim task5.fake 
+  588  ls
+  589  head passwd.fake 			#### TASK 6
+  590  head 20 passwd.fake
+  591  tail passwd.fake
+  592  awk -F'[:]' 'if($1 = ^a && $3 % 2 = 0) {print $1}' passwd.fake > task6.fake
+  593  awk '$1 ~ /^A/ && $3 % 2 == 0' '{print $1}' > task6.fake
+  594  awk '$1 ~ /^A/ && $3 % 2 == 0 {print$1} > task6.fake
+  595  awk '$1 ~ /^A/ && $3 % 2 == 0 {print$1}' > task6.fake
+  596  awk '$1 ~ /^A/ && $3 % 2 == 0' > task6.fake
+  597  awk '$1 ~ /^a/ && $3 % 2 == 0' > task6.fake
+  598  awk -F'[:]''$1 ~ /^a/ && $3 % 2 == 0' > task6.fake
+  599  awk -F'[:]' '$1 ~ /^a/ && $3 % 2 == 0' > task6.fake
+  600  awk -F'[:]' '$1 ~ /^a/ && $3 % 2 == 0' passwd.fake> task6.fake
+  601  vim task6.fake
+  602  awk -F'[:]' '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake> task6.fake
+  603  vim task6.fake
+  604  vim Assignment3.txt 
+  605  vim task6.fake
+  606  awk -F'[:]' '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake | sort| uniq > task6.fake
+  607  vim task6.fake
+  608  awk -F'[:]' '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake | sort | uniq > task6.fake
+  609  vim task6.fake
+  610  vim Assignment3.txt 				#### TASK 7
+  611  sed 's/[[a-zA-z]]//g' passwd.fake | sort -u > task7.fake
+  612  sed 's/[^[a-zA-z]]//g' passwd.fake | sort -u > task7.fake
+  613  sed 's/[^[a-zA-z][0-9]]//g' passwd.fake | sort -u > task7.fake
+  614  sed 's/^[a-zA-z][0-9]//g' passwd.fake | sort -u > task7.fake
+  615  sed 's/^[a-zA-z0-9]//g' passwd.fake | sort -u > task7.fake
+  616  sed '/[a-zA-z]/ d' passwd.fake > task7.fake
+  617  sed '/a-zA-z/ d' passwd.fake > task7.fake
+  618  vim task7.fake
+  619  sed '/^a-zA-z/ d' passwd.fake > task7.fake
+  620  vim task7.fake
+  621  sed '/^*a-zA-z/ d' passwd.fake > task7.fake
+  622  vim task7.fake
+  623  sed '/^[a-zA-z0-9]\/ d' passwd.fake > task7.fake
+  624  sed '/^[a-zA-z0-9]\// d' passwd.fake > task7.fake
+  625  sed '/^[a-zA-z0-9]// d' passwd.fake > task7.fake
+  626  sed '/^[a-zA-z0-9]//d' passwd.fake > task7.fake
+  627  sed '/[^a-zA-z0-9 ]/d' passwd.fake > task7.fake
+  628  sed '/[^a-zA-Z0-9 ]/d' passwd.fake > task7.fake
+  629  vim task7.fake
+  630  sed '/^[a-zA-Z0-9 ]*$/d' passwd.fake > task7.fake
+  631  vim task7.fake
+  632  sed '/^[a-zA-Z0-9 ]/d' passwd.fake > task7.fake
+  633  vim task7.fake
+  634  sed 's/[a-zA-Z0-9 ]//g' passwd.fake > task7.fake
+  635  vim task7.fake
+  636  sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u > task7.fake
+  637  vim task7.fake
+  638  vim Assignment3.txt 
+  639  git status
+  640  git add .
+  641  git commit -m "updated"
+  642  git push
+  643  ~
+  644  exit
+  645  ls
+  646  cd Assignment3
+  647  ls
+  648  history 100 > cmd.logs
+  649  ls
+  650  vim cmd.logs
+  651  history 200 > cmd.logs
+  652  vim cmd.logs
+  653  history 300 > cmd.logs
+  654  vim cmd.logs
+  655  history 350 > cmd.logs
