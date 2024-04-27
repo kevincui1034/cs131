@@ -1,0 +1,30 @@
+ 693  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  694  ls
+  03  vim script.sh
+  704  ./script.sh
+  705  chmod +uwrx script.sh
+  706  chmod +x script.sh
+  707  ./script.sh
+  708  vim script.sh
+  709  ./script.sh
+  710  vim script.sh
+  711  ./script.sh
+  712  vim script.sh
+  713  ./script.sh
+  714  ls
+  715  cat 'Global YouTube Statistics.csv' > youtube.csv
+  716  ls
+  717  vim youtube.csv
+  718  vim script.sh
+  735  ./script.sh
+  736  ls
+  737  vim Gaming.txt
+  738  vim youtube.csv 
+  18  ./script.sh
+  819  vim ws5.txt
+  820  rm *.txt
+  821  ./script.sh
+  822  vim ws5.txt 
+  823  ls
+  824  rm cmd.logs
+  825  history 200 > cmd.logs
